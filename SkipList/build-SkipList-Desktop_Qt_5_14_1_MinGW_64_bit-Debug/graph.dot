@@ -1,0 +1,19 @@
+digraph G{
+label="Op 5: Delete 1";
+rankdir=LR;
+node [shape=record,width=.1,height=.1];
+0[label="<2>|<1>|<0>|head"];
+4[label="<2>|<1>|<0>|tail"];
+1[label="<1>|<0>|wzr"]
+2[label="<0>|wzr"]
+3[label="<2>|<1>|<0>|wzr"]
+0:2->3:2
+3:2->4:2
+0:1->1:1
+1:1->3:1
+3:1->4:1
+0:0->1:0
+1:0->2:0
+2:0->3:0
+3:0->4:0
+}

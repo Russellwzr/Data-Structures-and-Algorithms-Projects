@@ -1,0 +1,8 @@
+digraph G{
+label="Op 12: Delete MaxKey";
+rankdir=LR;
+node [shape=record,width=.1,height=.1];
+0[label="<0>|head"];
+1[label="<0>|tail"];
+0:0->1:0
+}
